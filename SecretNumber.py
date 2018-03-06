@@ -16,7 +16,7 @@ while True:
                 print "Try a bigger number."
             jos = ""
         if pokusaj != random_num:
-            jos = raw_input("zelite li jos jednom pokusati? (y/n): ")
+            print "You have failed! The secret number is: %s" %random_num
         if jos != "y" or pokusaj == random_num:
             break
     josigra = raw_input("Jos jedna igra? (y/n): ")
